@@ -1,4 +1,4 @@
-# random-team-generator-in-openjfx
+# Random Team Generator in OpenJFX
  random-team-generator-in-openjfx
 
 ## Screenshots
