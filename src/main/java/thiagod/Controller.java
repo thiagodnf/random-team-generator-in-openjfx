@@ -82,9 +82,20 @@ public class Controller implements Initializable {
 
 			alert.setContentText("The student list is empty");
 			alert.showAndWait();
+			
 			return;
 		}
+		
+		if (studentList.size() > numberOfTeams * numberOfMembers) {
 
+			Alert alert = new Alert(AlertType.ERROR);
+
+			alert.setContentText("The student list is greater than the # of Teams x # of Members");
+			alert.showAndWait();
+
+			return;
+		}
+		
 		// Create the random generator by using the seed provided by the user
 		Random generator = new Random(seed);
 
