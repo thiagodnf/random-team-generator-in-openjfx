@@ -1,5 +1,5 @@
 # Random Team Generator in OpenJFX
- random-team-generator-in-openjfx
+Fairly pick teams without bias. Mix up your list by generating random teams out of them. 
 
 ## Screenshots
 
